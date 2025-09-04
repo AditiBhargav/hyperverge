@@ -1,0 +1,6 @@
+<!-- Simple placeholder for icons - replace with actual icon files -->
+<svg width="192" height="192" xmlns="http://www.w3.org/2000/svg">
+  <rect width="192" height="192" fill="#2563eb"/>
+  <text x="96" y="110" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">KYC</text>
+  <text x="96" y="135" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Lite</text>
+</svg>
