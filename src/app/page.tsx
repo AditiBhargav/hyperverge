@@ -193,6 +193,39 @@ export default function Home() {
               ))}
             </div>
 
+            {/* DigiLocker Section */}
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
+              <div className="flex items-center justify-between">
+                <div>
+                  <h3 className="text-lg font-semibold text-blue-900 mb-2">DigiLocker Integration</h3>
+                  <p className="text-blue-700 text-sm mb-4">
+                    Quickly verify your identity using DigiLocker - Access your official documents securely
+                  </p>
+                  <ul className="text-sm text-blue-800 space-y-2 mb-4">
+                    <li className="flex items-center">
+                      <svg className="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                      Instant document verification
+                    </li>
+                    <li className="flex items-center">
+                      <svg className="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                      Government-verified documents
+                    </li>
+                  </ul>
+                </div>
+                <div className="hidden md:block text-6xl">🔐</div>
+              </div>
+              <Link
+                href="/digilocker"
+                className="block w-full bg-blue-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-blue-700 transition-colors text-center"
+              >
+                Connect with DigiLocker
+              </Link>
+            </div>
+
             {/* Alternative Individual Routes */}
             <div className="bg-gray-50 rounded-lg p-6 mb-8">
               <h3 className="text-lg font-semibold text-gray-900 mb-4">Individual Document Capture</h3>

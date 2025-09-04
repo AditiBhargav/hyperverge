@@ -158,6 +158,8 @@ export class DatabaseService {
     return await db.sessions.where('sessionId').equals(sessionId).first();
   }
 
+
+
   // Update session status
   static async updateSessionStatus(sessionId: string, status: KYCSession['status']): Promise<void> {
     if (typeof window === 'undefined') return;
